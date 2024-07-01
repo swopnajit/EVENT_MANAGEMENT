@@ -11,7 +11,7 @@ const Contact = () => {
     const handleSendMessage = async (e) => {
     e.preventDefault();
     await axios.post(
-        "http://localhost:4000/api/v1/message/send",
+        "https://event-management-backend-1sqm.onrender.com",
         {
             name,
             email,
