@@ -1,4 +1,4 @@
-#Start Backend
+Start Backend
 Backend
 ==================================================================================================================
 cd backend
@@ -6,7 +6,7 @@ npm init
 npm i express mongoose cors dotenv validator
 npm run dev
 
-#Start Frontend
+Start Frontend
 Frontend
 ==================================================================================================================
 npm create vite@latest ./
